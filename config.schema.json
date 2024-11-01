@@ -1,0 +1,28 @@
+{
+  "pluginAlias": "TemporaryButton",
+  "pluginType": "accessory",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "required": true
+      },
+      "onCommand": {
+        "title": "Command to Execute",
+        "type": "string",
+        "required": true
+      },
+      "duration": {
+        "title": "Duration (ms)",
+        "type": "number",
+        "default": 1000,
+        "required": false,
+        "description": "Time in milliseconds before button turns off"
+      }
+    }
+  }
+}
+

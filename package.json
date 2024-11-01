@@ -1,0 +1,22 @@
+{
+  "name": "homebridge-temporary-button",
+  "version": "1.0.0",
+  "description": "A Homebridge accessory that acts as a temporary button to execute a script.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuo-username/homebridge-temporary-button.git"
+  },
+  "scripts": {},
+  "keywords": ["homebridge-plugin"],
+  "author": "luciano_AI",
+  "license": "ISC",
+  "engines": {
+    "homebridge": ">=1.0.0",
+    "node": ">=14.17.0"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
+
